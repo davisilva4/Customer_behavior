@@ -53,50 +53,46 @@ O fluxo de dados segue a seguinte lógica:
 ---
 
 ## 📁 Estrutura de Pastas
-customer_behavior/
-├── README.md
-│
-├── dashboard/
-│ ├── dashboard.pbix
-│ └── images/
-│ ├── logo.png
-│ ├── overview.png
-│ └── overview_2.png
-│
-├── data/
-│ ├── raw/
-│ │ └── customer_shopping_behavior.csv
-│ │
-│ ├── silver/
-│ │ └── customer_behavior.db
-│ │
-│ └── gold/
-│ ├── age_group_revenue
-│ ├── average_purchase_shipping
-│ ├── biggest_renue_customer
-│ ├── buyers_by_subscription
-│ ├── discount_rate
-│ ├── revenue_by_gender
-│ ├── revenue_by_subscription
-│ ├── top_3_items_category
-│ ├── top_5_reviews
-│ └── types_of_customers
-│
-├── notebooks/
-│ ├── raw_to_silver.ipynb
-│ └── silver_to_gold.ipynb
-│
-└── sql_scripts/
-├── age_group_revenue.sql
-├── average_purchase_shipping.sql
-├── biggest_renue_customer.sql
-├── buyers_by_subscription.sql
-├── discount_rate.sql
-├── revenue_by_gender.sql
-├── revenue_by_subscription.sql
-├── top_3_items_category.sql
-├── top_5_reviews.sql
-└── types_of_customers.sql
+
+📁 customer_behavior
+┣ 📂dashboard
+┃ ┣ 📂images
+┃ ┃ ┣ 📜logo.png
+┃ ┃ ┣ 📜overview_2.png
+┃ ┃ ┗ 📜overview.png
+┃ ┗ 📜customer_behavior.pbix
+┣ 📂data
+┃ ┣ 📂gold
+┃ ┃ ┣ 📜age_group_revenue.csv
+┃ ┃ ┣ 📜average_purchase_shipping.csv
+┃ ┃ ┣ 📜biggest_reneue_customer.csv
+┃ ┃ ┣ 📜buyers_by_subscription.csv
+┃ ┃ ┣ 📜discount_rate.csv
+┃ ┃ ┣ 📜revenue_by_gender.csv
+┃ ┃ ┣ 📜revenue_by_subscription.csv
+┃ ┃ ┣ 📜top_3_items_category.csv
+┃ ┃ ┣ 📜top_5_reviews.csv
+┃ ┃ ┗ 📜types_of_customers.csv
+┃ ┣ 📂raw
+┃ ┃ ┗ 📜customer_shopping_behavior.csv
+┃ ┗ 📂silver
+┃   ┗ 📜customer_behavior.db
+┣ 📂notebooks
+┃ ┣ 📜raw_to_silver.ipynb
+┃ ┗ 📜silver_to_gold.ipynb
+┣ 📂sql_scripts
+┃ ┣ 📜age_group_revenue.sql
+┃ ┣ 📜average_purchase_shipping.sql
+┃ ┣ 📜biggest_reneue_customer.sql
+┃ ┣ 📜buyers_by_subscription.sql
+┃ ┣ 📜discount_rate.sql
+┃ ┣ 📜generate_import_sql.sql
+┃ ┣ 📜revenue_by_gender.sql
+┃ ┣ 📜revenue_by_subscription.sql
+┃ ┣ 📜top_3_items_category.sql
+┃ ┣ 📜top_5_reviews.sql
+┃ ┗ 📜types_of_customers.sql
+┗ 📜README.md
 
 ---
 
