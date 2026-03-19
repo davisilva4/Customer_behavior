@@ -1,0 +1,3 @@
+shipping_type,"ROUND(AVG(purchase_amount), 2)"
+Express,60.48
+Standard,58.46
